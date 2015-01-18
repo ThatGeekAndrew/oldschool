@@ -1,2 +1,6 @@
-# oldschool
-A website dedicated to the oldschool runescape community.
+# Old School RuneScape Website
+A website dedicated to the Old School RuneScape community.
+
+Including guides, tutorials, forums, calculators, etc.
+
+
