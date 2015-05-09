@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body>
+  <% include partials/template/header.ejs %>
+      <!-- Page Header -->
+      <section class="landing">
+        <div class="container">
+          <div class="row">
+            <img class="img-responsive rslogo" src="/images/rslogo.gif">
+            <p class="online text-center">There are currently 302,013 people playing!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main">
+        <div class="container">
+          <div class="col-sm-8 pull-right visible-lg">
+            
+            <div class="button col-xs-6 col-xs-offset-3">
+              <a class="play" href="#register">New User?</a>
+            </div>
+            <div class="button col-xs-6">
+              <a class="play" href="#world">Existing User?</a>
+            </div>
+
+
+            <div class="col-xs-12 select text-center">
+              <a href="#world">Manually select world</a>
+            </div>
+          </div>
+
+          <div class="menu-list col-sm-4">
+            <div class="affix">
+              <h4 class="menu-title">Poll</h4>
+              <ul>
+                <li><a href="#link"><i class="fa fa-bar-chart menu-icon"></i>Recent Polls</a></li>
+              </ul>
+              
+              <h4 class="menu-title">Old School Runescape</h4>
+              <ul>
+                <li><a href="#link"><i class="fa fa-trophy menu-icon"></i>Highscores</a></li>
+                <li><a href="#link"><i class="fa fa-globe menu-icon"></i>World Select</a></li>
+                <li><a href="#link"><i class="fa fa-comments-o menu-icon"></i>Forum</a></li>
+                <li><a href="#link"><i class="fa fa-institution menu-icon"></i>Wiki</a></li>
+                <li><a href="#link"><i class="fa fa-puzzle-piece menu-icon"></i>FAQ</a/></li>
+                <li><a href="#link"><i class="fa fa-money menu-icon"></i>Become a Member<a></li>
+                <li><a href="#link"><i class="fa fa-arrow-down menu-icon"></i>Old School Client</a></li>
+                <li><a href="#link"><i class="fa fa-reply-all menu-icon"></i>Back to RuneScape.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="updates col-sm-8 pull-right">
+            <img class="img-responsive" src="/images/backdrop-top.gif">
+            <div class="backdrop">
+              <img class="welcome img-responsive col-lg-offset-1" src="/images/welcomeToOldschoolRuneScape.png">
+              <p class="text-center">In February 2013, members voted to bring back an 'Old School' RuneScape service for nostalgia-hungry players. This site provides an authentic service as of August 2007 for all RuneScape members at no additional charge. A dedicated development team provides ongoing maintenance of this version for an intimate and vibrant community who choose content updates via regular community polls.</p>
+
+              <p class="text-center">If you're a RuneScape veteran hungry for nostalgia, or just a member who's curious about RuneScape's history, feel free to get stuck right in! While you'll start from scratch on the 'Old School' servers, it won't affect your progress in the main game. Click here to create an account, or if you already have a free RuneScape account, click here to subscribe. If you're already a RuneScape member, <a href="#register">click here to get started</a>.</p>
+
+              <h2 class="text-center">News &amp; Updates</h2>
+              
+              <% include partials/news.ejs %>
+            </div><!-- Backdrop -->
+            <img class="img-responsive" src="/images/backdrop-bottom.gif">
+          </div><!-- Column -->
+        </div><!-- Container -->
+      </section>
+   
+    <% include partials/template/footer.ejs %>
+
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>

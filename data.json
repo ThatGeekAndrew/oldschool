@@ -1,0 +1,59 @@
+{
+  "authors": [
+    {
+      "name": "Andrew Alsante",
+      "role": "Developer, Animator, Storyteller",
+      "website": "www.geeksmarter.com"
+    },
+    {
+      "name": "Patrick Stacy",
+      "role": "Artist, Storyteller",
+      "website": "www.brickhousepat.com"
+    }
+  ],
+  "comic": [
+    {
+      "episode": 1,
+      "date": "2-24-2014",
+      "title": "The Beginning",
+      "description": "The first episode of the series. By the way, you burn more calories sleeping than you do watching TV.",
+      "characters": "None"
+    },
+    {
+      "episode": 2,
+      "date": "3-14-2014",
+      "title": "More Comics",
+      "description": "A random description with dummy data to build the project. Did you know that the human heart creates enough pressure to squirt blood 30 feet?",
+      "characters": [
+        "Mage",
+        "Warrior",
+        "Rogue"
+      ]
+    },
+    {
+      "episode": 3,
+      "date": "4-20-2014",
+      "title": "Another Comic!",
+      "description": "A mage, a warrior and a rogue walk into a bar. The bartender says, get the fuck out! They start to leave, then the bartender stops them and says 'No, I mean why is a rouge hanging out with a warrior?'",
+      "characters": [
+        "Mage",
+        "Warrior",
+        "Rogue"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "shortname": "facebook",
+      "url": "https://www.facebook.com"
+    },
+    {
+      "shortname": "twitter",
+      "url": "https://www.twitter.com"
+    },
+    {
+      "shortname": "tumblr",
+      "url": "https://www.tumblr.com"
+    }
+  ]
+}
